@@ -1,0 +1,41 @@
+ 
+/* Extra Small Ekranlar (<576px) */      /* telefon */
+@media (max-width: 575px) {
+    .headtext {
+        font-size: 1.0em;
+    }
+    .servicesbutton {
+        width: 65%;
+        font-size: 1.0em;
+    }
+}
+
+/* Small Ekranlar (≥576px) */     /* tablet */
+@media (min-width: 576px) {
+    .headtext {
+        font-size: 1.4em;
+    }
+}
+
+/* Medium Ekranlar (≥768px) */
+@media (min-width: 768px) {
+    .headtext {
+        font-size: 1.6em;
+    }
+}
+
+/* Large Ekranlar (≥992px) */
+@media (min-width: 992px) {
+    .headtext {
+        font-size: 1.8em;
+        text-align: center; /* Metni sola yasla */
+        
+    }
+}
+
+/* Extra Large Ekranlar (≥1200px) */
+@media (min-width: 1200px) {
+    .headtext {
+        font-size: 2em;
+    }
+}

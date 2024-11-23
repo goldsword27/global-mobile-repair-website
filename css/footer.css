@@ -1,0 +1,47 @@
+
+
+
+.footerkutusu{
+    background-color: #212529;
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: #212529;
+    color: #fff;
+    height: 150px;
+}
+
+.bi-telegram {
+    font-size: 2.4em; /* İkon boyutunu*/
+    color: #007bff;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.foot-flex {
+    align-items: center; 
+}
+.foot-flex p{
+    margin-left: 12px;
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    .footer {
+        font-size: 1.5em !important;
+    }
+}
+@media (max-width: 575px) {
+    .foot-flex {
+        display: flex !important; 
+    }
+}
+@media (max-width: 455px) {
+    .foot-flex p{
+font-size: 0.81em !important;
+    }
+}

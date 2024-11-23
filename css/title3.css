@@ -1,0 +1,13 @@
+.section-title-container{
+
+    flex-wrap: nowrap;
+}
+
+.section-title-main{
+    padding-inline: 20px;
+    font-size: 1em;
+}
+
+.section-title-container i{
+    margin-right: 10px;
+}

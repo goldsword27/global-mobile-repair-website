@@ -1,0 +1,84 @@
+.collapse-box{
+    margin-bottom: 27px;
+}
+
+
+
+
+
+
+
+
+.bilgilendirme {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.bilgilendirme p {
+    margin-bottom: 0;
+}
+
+.b-head {
+    background-color: #686868b6;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.b-head a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.b-head a.collapsed::after {
+    content: "\F145";
+    font-family: "Bootstrap Icons";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.b-head a.collapsed::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.b-head a:focus {
+    font-weight: 750;
+}
+
+.b-body ul {
+    list-style: none;
+    padding-left: 20px;
+}
+.b-body ul li {
+padding: 4px;
+}
+
+.b-body ul li:before {
+    content: "\2022";
+    color: #000000;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.col-css {
+    background-color: #f0f0f0;
+}
+
+.bilgilendirme i {
+    font-size: xx-large;
+}
+.b-head a.collapsed::after {
+content: " ";}
