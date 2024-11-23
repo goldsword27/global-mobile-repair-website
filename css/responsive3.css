@@ -1,7 +1,7 @@
 @media (max-width: 298px) {
     .card-title {
         font-size: 0.7em !important;
-       
+
     }
 
     .row>* {
@@ -17,16 +17,18 @@
     .row>* {
         padding-right: 2px !important;
     }
-    
+
 }
 
 @media (max-width: 575px) {
     .card-title {
         font-size: 1em;
     }
+
     .card-body {
         padding: 2px !important;
     }
+
     .row>* {
         padding-right: 2px !important;
     }
@@ -37,6 +39,7 @@
     .card-title {
         font-size: 1.125em;
     }
+
     .row>* {
         padding-right: 2px !important;
     }
@@ -46,13 +49,15 @@
     .card-title {
         font-size: 1.25em;
     }
+
     .row>* {
         padding-right: 8px !important;
     }
-    .kutu-ek{
+
+    .kutu-ek {
         width: 100px;
         height: 200px;
-        
+
     }
 }
 
@@ -61,36 +66,40 @@
         font-size: 1.375em;
         text-align: center;
     }
+
     .row>* {
         padding-right: 10px !important;
     }
-    .section-title-main{
+
+    .section-title-main {
         padding-inline: 20px;
         font-size: 1.54em !important;
     }
 }
+
 @media (max-width: 992px) {
 
-    .kutu-ek{
+    .kutu-ek {
         width: 50px;
         height: 200px;
-       
+
     }
 
-    
+
 
 
 
 }
+
 @media (max-width: 602px) {
 
-    .kutu-ek{
+    .kutu-ek {
         width: 10px;
         height: 200px;
-       
+
     }
-    
-    
+
+
 
 
 
@@ -100,16 +109,18 @@
 
 @media (max-width: 482px) {
 
-    .kutu-ek{
+    .kutu-ek {
         width: 2px;
         height: 200px;
-       
+
     }
-    .section-title-main{
+
+    .section-title-main {
         padding-inline: 1px;
         font-size: 0.8em !important;
     }
-    .section-title-main{
+
+    .section-title-main {
         padding-inline: 7px !important;
         font-size: 1em;
     }
@@ -119,17 +130,18 @@
 
 @media (max-width: 400px) {
 
-    .kutu-ek{
+    .kutu-ek {
         width: 0px;
         height: 0px;
-       
+
     }
-    
+
     .card-title {
         font-size: 0.8em;
     }
 
-    .spbrand h3, .selam h3{
+    .spbrand h3,
+    .selam h3 {
         margin-bottom: -20px !important;
     }
 
@@ -142,12 +154,14 @@
     .card-title {
         font-size: 1.5em;
     }
+
     .row>* {
         padding-right: 15px !important;
     }
-    .kutu-ek{
+
+    .kutu-ek {
         width: 300px;
         height: 300px;
-       
+
     }
 }

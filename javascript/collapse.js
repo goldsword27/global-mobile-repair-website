@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $('.bil-link').click(function(){
+$(document).ready(function () {
+    $('.bil-link').click(function () {
         var icon = $(this).find('i');
         if (icon.hasClass('bi-arrow-down-short')) {
             icon.removeClass('bi-arrow-down-short').addClass('bi-arrow-up-short');

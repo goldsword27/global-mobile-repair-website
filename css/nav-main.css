@@ -20,7 +20,7 @@ body {
     padding: 13.5px;
     border-radius: 28px;
     margin-right: 10px;
-    text-align: center; 
+    text-align: center;
 }
 
 .navbar-nav {
@@ -44,6 +44,7 @@ body {
 /* Custom CSS for mobile view */
 @media (max-width: 991.98px) {
     .navbar-nav .nav-item {
-        margin-top: 12px; /* Margin between links on mobile */
+        margin-top: 12px;
+        /* Margin between links on mobile */
     }
 }

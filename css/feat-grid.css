@@ -3,15 +3,11 @@
 }
 
 
-
-
-
 .feat-wrap {
     display: inline-flex;
     flex-wrap: wrap !important;
     align-items: normal !important;
 }
-
 
 .features-grid {
     padding-top: 50px;

@@ -1,12 +1,6 @@
-.collapse-box{
+.collapse-box {
     margin-bottom: 27px;
 }
-
-
-
-
-
-
 
 
 .bilgilendirme {
@@ -60,8 +54,9 @@
     list-style: none;
     padding-left: 20px;
 }
+
 .b-body ul li {
-padding: 4px;
+    padding: 4px;
 }
 
 .b-body ul li:before {
@@ -80,5 +75,7 @@ padding: 4px;
 .bilgilendirme i {
     font-size: xx-large;
 }
+
 .b-head a.collapsed::after {
-content: " ";}
+    content: " ";
+}

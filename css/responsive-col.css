@@ -1,24 +1,27 @@
 @media (min-width: 18.75em) {
-   .bilgilendirme{
-        font-size: 0.875em; /* 14px */
+    .bilgilendirme {
+        font-size: 0.875em;
+        /* 14px */
     }
 }
 
 @media (min-width: 31.25em) {
-   .bilgilendirme{
-        font-size: 1em; /* 16px */
+    .bilgilendirme {
+        font-size: 1em;
+        /* 16px */
     }
 }
 
 @media (min-width: 43.75em) {
-   .bilgilendirme{
-        font-size: 1.125em; /* 18px */
+    .bilgilendirme {
+        font-size: 1.125em;
+        /* 18px */
     }
 }
 
 @media (min-width: 62.5em) {
-   .bilgilendirme{
-        font-size: 1.25em; /* 20px */
+    .bilgilendirme {
+        font-size: 1.25em;
+        /* 20px */
     }
 }
-
